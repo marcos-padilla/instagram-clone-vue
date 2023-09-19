@@ -1,6 +1,10 @@
-<script setup></script>
+<script setup>
+import MainLayout from "@/Layouts/MainLayout.vue";
+</script>
 
 <template>
     <Head title="Welcome" />
-    <div class="bg-green-500">Home</div>
+    <MainLayout>
+        <div class="bg-green-500">Home</div>
+    </MainLayout>
 </template>
